@@ -1,13 +1,12 @@
-module algolia/search-logs
+module github.com/kai687/search-logs
 
 go 1.22.5
 
 require (
 	github.com/alecthomas/chroma v0.10.0
-	github.com/algolia/algoliasearch-client-go/v4 v4.7.0
+	github.com/algolia/algoliasearch-client-go/v4 v4.7.1
 	github.com/charmbracelet/lipgloss v1.0.0
 	github.com/joho/godotenv v1.5.1
-	golang.org/x/term v0.25.0
 )
 
 require (
